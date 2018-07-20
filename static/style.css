@@ -1,0 +1,49 @@
+head, body {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-color: rgb(209, 38, 43);
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+
+.search {
+	margin: 0 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.logo img {
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 5px; 
+	width: 80px;
+}
+
+.search input{
+	flex: 5;
+	height: 20px;
+}
+
+.search button{
+	flex: 1;
+}
+
+.conA {
+	margin-top:100px; 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align align-items: center;
+}
+
+.pic img {
+	width: 140px;
+}
